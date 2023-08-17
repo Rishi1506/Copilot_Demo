@@ -1,0 +1,68 @@
+
+/* CSS for Employee Data Component */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+  background-color: #2f3330;
+  color: white;
+  text-align: center;
+            
+}
+
+td{
+    text-align: center;
+}
+
+h1 { 
+color: #369; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%; 
+    } 
+  p {
+     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 100%; 
+     } 
+  
+     /* use material design for styling table*/
+       
+
+/* Path: src\app\employee-data\employee-data.component.html */
+
+
+
+/*<div class="container">
+  <h1>Employee Data</h1>
+  <p>Employee data is displayed below</p>
+  <table>
+    <tr>
+      <th>Employee ID</th>
+      <th>Employee Name</th>
+      <th>Employee Email</th>
+      <th>Employee Phone</th>
+      <th>Employee Address</th>
+      <th>Employee Department</th>
+      <th>Employee Salary</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+      <td>{{employee.id}}</td>
+      <td>{{employee.name}}</td>
+      <td>{{employee.email}}</td>
+      <td>{{employee.phone}}</td>
+      <td>{{employee.address}}</td>
+      <td>{{employee.department}}</td>
+      <td>{{employee.salary}}</td>
+    </tr>
+  </table>
+</div>
+```*/
+
